@@ -1,16 +1,17 @@
 {
   "name": "create-cesium-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "create cesium-web page faster",
   "main": "index.js",
   "bin": {
     "create-cesium-cli": "bin/index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenchiBai/create-cesium-cli.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cesium", "vue3", "react", "vue"],
+  "author": "venchibai",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "6.26.0",
@@ -23,8 +24,5 @@
     "inquirer": "7.1.0",
     "log-symbols": "3.0.0",
     "ora": "4.0.4"
-  },
-  "devDependencies": {
-    "child_process": "^1.0.2"
   }
 }
